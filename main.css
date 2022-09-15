@@ -110,14 +110,11 @@ body {
   margin: 0 auto;
 }
 
-.logo {
-  margin: 21px 0;
-}
-
 .header {
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding: 20px 0;
 }
 
 .header-menu nav {
@@ -216,7 +213,7 @@ align-items: center;
   left: 19px;
 }
 
-.section-1-left input {
+.section-1-form input {
   font-size: 20px;
   background: #FFFFFF;
   border: 1px solid #E7E8E3;
@@ -640,6 +637,17 @@ align-items: center;
 
 .review-block {
  text-align: left;
+ display: flex;
+ gap: 33px;
+ margin-bottom: 160px;
+}
+
+.review {
+  background: #FFFFFF;
+  border: 1px solid #E7E8E3;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 33px 33px 60px 33px;
 }
 
 .section-8 p {
@@ -652,4 +660,248 @@ align-items: center;
 .section-8 .page-tittle {
   margin-bottom: 0;
 }
+
+.review-down {
+  display: flex;
+  align-items: center; 
+  margin-top: 30px;
+}
+
+.review span {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.review-rating {
+  margin-bottom: 27px;
+}
+
+.review-down span {
+  color: #65665C;
+}
+
+.review-down h3 {
+  margin: 0;
+}
+
+.review-down-span {
+  margin-left: 16px;
+}
+
 /* Section 8 end */
+
+
+
+
+
+
+
+
+
+/* Section 9 */
+
+.section-9 {
+  background: #F5F5F2;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.section-9-top-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-9-top-text span {
+  width: 710px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #65665C;
+}
+
+.section-9-top h2 {
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+
+.section-9-top {
+  margin-bottom: 78px;
+}
+
+.label-span-red {
+  font-size: 14px;
+  background: #FAE8E1;
+  border-radius: 32px;
+  padding: 7px 12px;
+  display: inline-block;
+}
+
+.section-9-tittle {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0;
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 34px;
+  width: 349px;
+  padding-top: 8px;
+}
+
+.section-9-location {
+  color: #65665C;
+  display: inline-block;
+  padding-bottom: 31px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 10px;
+  width: 319px;
+ }
+
+/* Section 9 end */
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.section-1-form .footer-input {
+  padding-left: 15px;
+  width: 240px;
+}
+
+
+
+.subscribe-tittle {
+  line-height: 24px;
+  color: #65665C;
+  width: 380px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.privacy {
+  font-size: 12px;
+  line-height: 18px;
+  color: #65665C;  
+  margin-top: 16px;
+}
+
+.privacy span {
+  margin-right: 8px;
+}
+
+.button-footer {
+  background: #CF6F49;
+  border: 1px solid #CF6F49;
+  border-radius: 6px;
+  color: #FFFFFF;
+  width: 166px;
+  height: 50px;
+  font-size: 16px;
+  margin-left: 16px;
+  width: 127px;
+}
+
+.footer .logo {
+  margin-top: 5px;
+}
+
+/* Footer end */
+
+
+
+/* apendix */
+
+
+.apendix {
+  background: #F5F5F2;
+  padding: 25px 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.apendix-left {
+  font-size: 14px;
+  color: #65665C;
+}
+
+.apendix-left span {
+  margin-right: 8px;
+}
+
+.fb {
+  background: url(images/apendix/fb.png);
+  width: 20px;
+  height: 20px; 
+  display: inline-block;
+  background-repeat: no-repeat; 
+  margin-right: 15px;
+  background-position: center
+}
+
+.instagram {
+  background: url(images/apendix/instagram.png);
+  width: 20px;
+  height: 20px;
+  background-position: center; 
+  display: inline-block;
+  background-repeat: no-repeat; 
+  margin-right: 15px;
+}
+
+.tw {
+  background: url(images/apendix/tw.png);
+  width: 20px;
+  height: 20px;
+  background-position: center; 
+  display: inline-block;
+  background-repeat: no-repeat; 
+  margin-right: 15px;
+}
+
+.in {
+  background: url(images/apendix/in.png);
+  width: 20px;
+  height: 20px;
+  background-position: center; 
+  display: inline-block;
+  background-repeat: no-repeat; 
+  margin-right: 15px;
+}
+
+
+.apendix-right a {
+  display: inline-block;
+}
+
+.apendix-right {
+  display: flex;
+  align-items: center;
+}
+
+/* apendix end */
+
+
+
+
